@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Archetype Created Web Application</display-name>
+		<servlet>
+    <display-name>kontroler2</display-name>
+    <servlet-name>kontroler2</servlet-name>
+    <servlet-class>kontroler.kontroler2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kontroler2</servlet-name>
+    <url-pattern>/kontroler2</url-pattern>
+  </servlet-mapping>
+  	<servlet>
+    <display-name>kontroler1</display-name>
+    <servlet-name>kontroler1</servlet-name>
+    <servlet-class>kontroler.kontroler1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kontroler1</servlet-name>
+    <url-pattern>/kontroler1</url-pattern>
+  </servlet-mapping>
+</web-app>
